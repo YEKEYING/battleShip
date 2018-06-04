@@ -107,7 +107,7 @@ var model = {
 //model.fire("11");
 //model.fire("10");
 
-function parseGuess(guess) {
+function parseGuess(guess) {  
   var alphabet = ["A", "B", "C", "D", "E", "F", "G"];
   if (guess === null || guess.length !== 2) {
       alert("Oops, please enter a letter and a number on the board.");
